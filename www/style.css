@@ -7,17 +7,32 @@
 }
 .linksContainer a {
     text-decoration: none;
-
+    font-family: 'Futura Md BT', sans-serif;
+    color: black;
 }
 
 .center-container {
     font-family: 'Muli', sans-serif;
-    margin: 0 auto;
     text-align: center;
     font-size: 1.2rem;
   }
 
-  .portada{
-    margin-top:-10px;
-    text-align:"center"
+  .container {
+    width: 30%;
+    max-width: 1000px;
+    text-align: center;
+    margin: 0 auto;
   }
+
+  .container img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* .fit-div {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .fit-img {
+    max-height: 550px;
+  } */
